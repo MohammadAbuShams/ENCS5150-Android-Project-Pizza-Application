@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="offer_names">
+        <item>Weekend Special</item>
+        <item>Family Combo</item>
+        <item>Limited Time Offer</item>
+        <item>Buy One Get One Free</item>
+    </string-array>
+    <string-array name="pizza_categories">
+        <item>All</item>
+        <item>Chicken</item>
+        <item>Veggies</item>
+        <item>Beef</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="price_range">
+        <item>Any</item>
+        <item>$10</item>
+        <item>$20</item>
+        <item>$30</item>
+        <item>$40</item>
+    </string-array>
+    <string-array name="pizza_sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="select_size">Select Size</string>
+    <string-array name="offer_period">
+        <item>1 Day</item>
+        <item>3 Days</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>1 Month</item>
+    </string-array>
+
+
+</resources>
