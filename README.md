@@ -1,28 +1,40 @@
 # Advance Pizza Android Application
 
 ## Project Overview
-Advance Pizza is an Android application designed for a pizza restaurant to enable their customers to order pizzas online using either a direct server connection or a local database. The application focuses on a user-friendly interface with comprehensive features for both customers and administrators.
+Advance Pizza is a user-friendly Android application that enables customers of a pizza restaurant to order their favorite pizzas online or through a local database. This project is created to streamline the ordering process and enhance the customer experience with intuitive navigation and comprehensive features for managing user profiles and orders.
 
 ## Features
 
-### User Functionalities:
-- **Introduction Layout**: Start screen with a "Get Started" button that initiates a server connection to load available pizza types.
-- **Login and Registration**: Secure access with encrypted password storage, including form validations and persistent login feature using shared preferences.
-- **Customer Home Layout**:
-  - **Navigation Drawer** with options like Home, Pizza Menu, Orders, Favorites, Special Offers, Profile, Contact, and Location.
-  - Interactions include adding to favorites, placing orders, and detailed views of pizza types using fragments.
+### User Functionalities
+- **Introduction Layout**: Includes a "Get Started" button to fetch pizza types from the server. Handles connection success or failure appropriately.
+- **Login and Registration Layout**:
+  - Secure login with email and password.
+  - New user registration with extensive validation.
+- **Customer Home Layout (Navigation Drawer Activity)**:
+  - Home: Displays restaurant history.
+  - Pizza Menu: Lists pizzas with options to add to favorites and order.
+  - Your Orders: Shows past orders with detailed views.
+  - Your Favorites: Manages favorite pizzas with ordering functionality.
+  - Special Offers: Lists current promotions.
+  - Profile: Allows users to edit their profile.
+  - Contact Us: Includes options to call, find, or email the restaurant.
+  - Logout: Logs out and redirects to the login page.
 
-### Admin Functionalities:
-- **Admin Home Layout**:
-  - Manage profiles, add admins, and view all orders.
-  - Add and manage special offers.
-  - Track orders and calculate income based on pizza types.
+### Admin Functionalities
+- **Admin Home Layout (Navigation Drawer Activity)**:
+  - Admin Profile: View and edit personal information.
+  - Add Admin: Add new admins with full validations.
+  - View All Orders: Overview of all customer orders.
+  - Add Special Offers: Create and manage promotions.
+  - Logout: Security feature to log out and secure the session.
 
 ## Technical Specifications
-- **Android Layouts**: Dynamically and statically designed layouts.
-- **Intents & Notifications**: Toast messages for user interactions.
-- **Data Management**: SQLite for local data storage.
-- **Animations**: Includes Frame and Tween animations to enhance UX.
-- **Components**: Utilizes Fragments, Shared Preferences, and RESTful services.
-
-
+- **Languages and Frameworks**: Java, Android SDK.
+- **Database**: SQLite for local storage.
+- **API Integration**: RESTful services to fetch pizza types.
+- **Additional Components**:
+  - Android Layouts (dynamic and static).
+  - Intents & Notifications for real-time user feedback.
+  - Animations (Frame and Tween) to enhance user interaction.
+  - Fragments for modular design.
+  - Shared Preferences to store user session data.
