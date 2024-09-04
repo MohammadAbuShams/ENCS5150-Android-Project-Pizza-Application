@@ -38,3 +38,8 @@ Advance Pizza is a user-friendly Android application that enables customers of a
   - Animations (Frame and Tween) to enhance user interaction.
   - Fragments for modular design.
   - Shared Preferences to store user session data.
+ 
+## Contributors
+- [Joud Hijaz](https://github.com/JoudHijaz)
+- [Mohammad AbuShams](https://github.com/MohammadAbuShams)
+
